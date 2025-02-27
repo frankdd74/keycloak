@@ -31,7 +31,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>admin-client</module>
+        <!--<module>admin-client</module>-->
         <module>client-registration</module>
         <module>client-cli</module>
     </modules>

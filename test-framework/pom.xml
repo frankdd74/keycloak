@@ -34,8 +34,8 @@
 
     <modules>
         <module>bom</module>
-        <module>core</module>
-        <module>db-mariadb</module>
+        <!--<module>core</module>-->
+        <!--<module>db-mariadb</module>
         <module>db-mssql</module>
         <module>db-mysql</module>
         <module>db-oracle</module>
@@ -46,7 +46,7 @@
         <module>oauth-nimbus-poc</module>
         <module>remote</module>
         <module>remote-providers</module>
-        <module>ui</module>
+        <module>ui</module>-->
     </modules>
 
 </project>
