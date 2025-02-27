@@ -4,7 +4,7 @@
     <module name="keycloak-junit5" />
     <option name="PROGRAM_PARAMETERS" value="start-dev --http-port=8080 --verbose" />
     <shortenClasspath name="ARGS_FILE" />
-    <option name="VM_PARAMETERS" value="-Djava.util.concurrent.ForkJoinPool.common.threadFactory=io.quarkus.bootstrap.forkjoin.QuarkusForkJoinWorkerThreadFactory" />
+    <option name="VM_PARAMETERS" value="-Djava.util.concurrent.ForkJoinPool.common.threadFactory=io.quarkus.bootstrap.forkjoin.QuarkusForkJoinWorkerThreadFactory -Dkc.home.dir=.kc -Dkc.providers=C:\dev\git\github\keycloak\providers" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
